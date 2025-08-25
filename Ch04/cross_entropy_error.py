@@ -8,7 +8,7 @@ def cross_entropy_error(y, t):
 
     batch_size = y.shape[0]
     return -np.sum(t * np.log(y + delta)) / batch_size
-    # t가 one-got encoding이 아닐 때, 정답이 숫자 레이블로 바로 주어질 때
+    # t가 one-hot encoding이 아닐 때, 정답이 숫자 레이블로 바로 주어질 때
     # return -np.sum(np.log(y[np.arragne(batch_size), t] + delta)) / batch_size
 
 if __name__ == '__main__':
