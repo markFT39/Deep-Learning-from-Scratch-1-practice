@@ -1,73 +1,46 @@
-# Deep Learning from Scratch - Practice
+# Deep Learning from Scratch (1) - Practice
 
-This repository contains my code implementations and learning notes based on the **"Deep Learning from Scratch"** book series by O'Reilly Japan / 사이토 고키.  
-The goal is to **implement deep learning concepts from first principles** using only foundational libraries such as NumPy, without relying on high-level frameworks.
+This directory contains my code implementations and notes based on **"밑바닥부터 시작하는 딥러닝 (1)"** by 사이토 고키 (Goki Saito).  
+The focus of this book is to build **fundamental deep learning models from scratch** using only NumPy, without relying on frameworks such as TensorFlow or PyTorch.
 
-## 📘 Book Series
-- **Deep Learning from Scratch (1)**  
-  Focus: Fundamentals of neural networks and deep learning using NumPy.  
-  Repository code → `Ch01`, `Ch02`, ...
-
-- **Deep Learning from Scratch (2)**  
-  Focus: Natural Language Processing (NLP) from scratch (word embeddings, RNNs, etc.).  
-  Repository code → `DLFS2/Ch01`, `DLFS2/Ch02`, ...
-
-- **Deep Learning from Scratch (3)** *(to be added)*  
-  Planned focus: Reinforcement learning concepts and implementations.
-
-- **Deep Learning from Scratch (4)** *(to be added)*  
-  Planned focus: Advanced generative models and further applications.
+📎 Related Link: [Repository](https://github.com/markFT39/deep-learning-from-scratch/tree/master)
 
 ---
 
 ## 📁 Contents
-
-### 📖 Book 1: Fundamentals
-- Chapter 1: Python and NumPy Basics
-- Chapter 2: Perceptron
-- Chapter 3: Neural Networks
-- Chapter 4: Learning Algorithms
-- Chapter 5: Backpropagation
-- Chapter 6: Neural Network Training Techniques
-- Chapter 7: CNN (Convolutional Neural Networks)
-- Chapter 8: Practical Examples
-
-### 📖 Book 2: Natural Language Processing
-- Chapter 1: Word Vector Representations
-- Chapter 2: Word2Vec Implementation
-- Chapter 3: RNN and Language Modeling
-- Chapter 4: Gated RNNs (GRU, LSTM)
-- Chapter 5: Advanced NLP Applications (e.g., seq2seq)
-- Chapter 6: Practical NLP Tasks
-
-*(Chapters may be updated as I progress through the book.)*
+- **Chapter 1**: Python and NumPy Basics  
+- **Chapter 2**: Perceptron  
+- **Chapter 3**: Neural Networks  
+- **Chapter 4**: Learning Algorithms  
+- **Chapter 5**: Backpropagation  
+- **Chapter 6**: Neural Network Training Techniques  
+- **Chapter 7**: CNN (Convolutional Neural Networks)  
+- **Chapter 8**: Practical Examples (MNIST, etc.)
 
 ---
 
 ## 💡 What I Learned
-- **From Book 1**:  
-  - Implementing basic neural networks with NumPy  
-  - Understanding forward and backward propagation  
-  - Training deep networks from scratch without frameworks  
-
-- **From Book 2** *(in progress)*:  
-  - Building word embeddings and word2vec from scratch  
-  - Implementing recurrent neural networks for sequence data  
-  - Understanding the foundations of NLP models  
+- Implementing **basic perceptrons and logic gates** with NumPy  
+- Constructing **feedforward neural networks** step by step  
+- Understanding the math behind **forward propagation and backpropagation**  
+- Implementing **gradient descent and numerical differentiation** for optimization  
+- Training deep networks on datasets (e.g., **MNIST**) without frameworks  
+- Exploring **convolutional neural networks (CNNs)** for image recognition  
+- Applying practical **training techniques** such as mini-batch learning and weight initialization  
 
 ---
 
 ## 🛠 How to Run
-Clone the repository and run individual chapter scripts:
+Clone the repository and run scripts chapter by chapter:
 
 ```bash
-git clone https://github.com/markFT39/Deep-Learning-from-Scratch-1-practice.git
-cd Deep-Learning-from-Scratch-1-practice
+git clone https://github.com/markFT39/Deep-Learning-from-Scratch-series.git
+cd "Deep Learning from Scratch (1)"
 
-# Example (Book 1, Chapter 1)
+# Example: Chapter 1
 cd Ch01
 python img_show.py
 
-# Example (Book 2, Chapter 1)
-cd DLFS2/Ch01
-python word2vec_basic.py
+# Example: Chapter 3
+cd ../Ch03
+python neuralnet_mnist.py
