@@ -4,6 +4,7 @@ This repository contains my code implementations and learning notes based on the
 The goal is to **implement deep learning concepts from first principles** using only NumPy and Python, without relying on high-level frameworks.
 
 📎 Related repository: [WegraLee/deep-learning-from-scratch](https://github.com/WegraLee/deep-learning-from-scratch)
+
 📎 Related repository: [markFT39/Deep-Learning-from-Scratch-series](https://github.com/markFT39/Deep-Learning-from-Scratch-series)
 
 ---
