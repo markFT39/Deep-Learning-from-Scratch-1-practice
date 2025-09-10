@@ -3,6 +3,7 @@
 This repository contains my code implementations and learning notes based on the **"Deep Learning from Scratch"** book series by O'Reilly Japan / 사이토 고키.  
 The goal is to **implement deep learning concepts from first principles** using only NumPy and Python, without relying on high-level frameworks.
 
+📎 Related repository: [WegraLee/deep-learning-from-scratch](https://github.com/WegraLee/deep-learning-from-scratch)
 📎 Related repository: [markFT39/Deep-Learning-from-Scratch-series](https://github.com/markFT39/Deep-Learning-from-Scratch-series)
 
 ---
@@ -10,7 +11,7 @@ The goal is to **implement deep learning concepts from first principles** using 
 ## 📘 Book Series
 - **Deep Learning from Scratch (1)**  
   Fundamentals of neural networks and deep learning using NumPy.  
-  Code in: `Ch01`, `Ch02`, ...
+  Code in: `Deep Learning from Scratch (1)/Ch01`, `Ch02`, ...
 
 - **Deep Learning from Scratch (2)**  
   Natural Language Processing (word embeddings, RNNs, etc.).  
