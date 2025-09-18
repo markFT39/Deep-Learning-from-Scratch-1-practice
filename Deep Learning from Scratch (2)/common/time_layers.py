@@ -149,7 +149,7 @@ class LSTM:
         do *= o * (1 - o)
         dg *= (1 - g ** 2)
 
-        dA = np.hstack((df, dg, di, do))
+        dA = np.hstack((df, dg, di, do))    # slice된 각 기울기를 하나로 합친다.
 
         dWh = np.dot(h_prev.T, dA)
         dWx = np.dot(x.T, dA)
