@@ -1,4 +1,3 @@
-# coding: utf-8
 import sys
 sys.path.append('..')
 from common.time_layers import *
@@ -77,7 +76,6 @@ class PeekyDecoder:
             sampled.append(char_id)
 
         return sampled
-
 
 class PeekySeq2seq(Seq2seq):
     def __init__(self, vocab_size, wordvec_size, hidden_size):
