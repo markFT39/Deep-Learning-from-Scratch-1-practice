@@ -18,8 +18,9 @@ The goal is to **implement deep learning concepts from first principles** using 
   Natural Language Processing (word embeddings, RNNs, etc.).  
   Code in: `Deep Learning from Scratch (2)/Ch01`, `Ch02`, ...
 
-- **Deep Learning from Scratch (3)** *(planned)*  
-  Focus: Reinforcement Learning (RL) basics and implementations.
+- **Deep Learning from Scratch (3)**  
+  Reinforcement Learning (RL) basics and implementations.  
+  Code in: `Deep Learning from Scratch (3)/Ch01`, `Ch02`, ...
 
 - **Deep Learning from Scratch (4)** *(planned)*  
   Focus: Generative Models (GANs, VAEs) and advanced applications.
@@ -44,7 +45,15 @@ The goal is to **implement deep learning concepts from first principles** using 
 - Chapter 3: RNN and Language Modeling  
 - Chapter 4: Gated RNNs (GRU, LSTM)  
 - Chapter 5: seq2seq and Attention  
-- Chapter 6: Practical NLP Tasks  
+- Chapter 6: Practical NLP Tasks
+
+### Book 3: Reinforcement Learning
+- Chapter 1: Introduction to RL and Bandit Problems  
+- Chapter 2: Dynamic Programming (Policy Iteration, Value Iteration)  
+- Chapter 3: Monte Carlo Methods  
+- Chapter 4: Temporal Difference Learning (SARSA, Q-learning)  
+- Chapter 5: Deep Reinforcement Learning (DQN and extensions)  
+- Chapter 6: Applications and Advanced Topics  
 
 *(Chapters may be updated as I progress through the book.)*
 
@@ -59,7 +68,13 @@ The goal is to **implement deep learning concepts from first principles** using 
 - **From Book 2** *(in progress)*:  
   - Building word embeddings and word2vec  
   - Implementing recurrent neural networks for sequence data  
-  - Understanding the foundations of NLP models  
+  - Understanding the foundations of NLP models
+
+- **From Book 3** *(in progress)*:  
+  - Understanding reinforcement learning framework (agent, environment, reward, policy)  
+  - Implementing bandit problems and policy evaluation methods  
+  - Exploring Monte Carlo and temporal-difference methods  
+  - Building simple DQN (Deep Q-Network) agents
 
 ---
 
@@ -78,3 +93,7 @@ python img_show.py
 # Example (Book 2, Chapter 1)
 cd "Deep Learning from Scratch (2)/Ch01"
 python word2vec_basic.py
+
+# Example (Book 3, Chapter 1)
+cd "Deep Learning from Scratch (3)/Ch01"
+python step01.py
