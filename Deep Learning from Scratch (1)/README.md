@@ -3,7 +3,7 @@
 This directory contains my code implementations and notes based on **"밑바닥부터 시작하는 딥러닝 (1)"** by 사이토 고키 (Goki Saito).  
 The focus of this book is to build **fundamental deep learning models from scratch** using only NumPy, without relying on frameworks such as TensorFlow or PyTorch.
 
-📎 Related Link: [Repository](https://github.com/markFT39/deep-learning-from-scratch/tree/master)
+📎 Related Link: [Repository](https://github.com/markFT39/Deep-Learning-from-Scratch-series)
 
 ---
 
@@ -11,11 +11,11 @@ The focus of this book is to build **fundamental deep learning models from scrat
 - **Chapter 1**: Python and NumPy Basics  
 - **Chapter 2**: Perceptron  
 - **Chapter 3**: Neural Networks  
-- **Chapter 4**: Learning Algorithms  
+- **Chapter 4**: Neural Network Training (loss functions, numerical differentiation, etc.)  
 - **Chapter 5**: Backpropagation  
-- **Chapter 6**: Neural Network Training Techniques  
-- **Chapter 7**: CNN (Convolutional Neural Networks)  
-- **Chapter 8**: Practical Examples (MNIST, etc.)
+- **Chapter 6**: Training Techniques (weight initialization, overfitting prevention, hyperparameters)  
+- **Chapter 7**: Convolutional Neural Networks (CNNs)  
+- **Chapter 8**: Deep Learning Applications (image recognition, MNIST, etc.)
 
 ---
 
@@ -31,7 +31,7 @@ The focus of this book is to build **fundamental deep learning models from scrat
 ---
 
 ## 🛠 How to Run
-Clone the repository and run scripts chapter by chapter:
+Clone the repo and run chapter scripts inside the Book 1 folder:
 
 ```bash
 git clone https://github.com/markFT39/Deep-Learning-from-Scratch-series.git

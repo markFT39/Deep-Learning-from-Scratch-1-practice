@@ -33,27 +33,29 @@ The goal is to **implement deep learning concepts from first principles** using 
 - Chapter 1: Python and NumPy Basics  
 - Chapter 2: Perceptron  
 - Chapter 3: Neural Networks  
-- Chapter 4: Learning Algorithms  
+- Chapter 4: Neural Network Training (loss functions, gradient methods)  
 - Chapter 5: Backpropagation  
-- Chapter 6: Neural Network Training Techniques  
-- Chapter 7: CNN (Convolutional Neural Networks)  
-- Chapter 8: Practical Examples  
+- Chapter 6: Training Techniques (weight initialization, overfitting prevention, hyperparameters)   
+- Chapter 7: Convolutional Neural Networks (CNNs)  
+- Chapter 8: Deep Learning Applications (image recognition, MNIST, etc.)
 
 ### Book 2: Natural Language Processing
-- Chapter 1: Word Vector Representations  
-- Chapter 2: Word2Vec Implementation  
-- Chapter 3: RNN and Language Modeling  
-- Chapter 4: Gated RNNs (GRU, LSTM)  
-- Chapter 5: seq2seq and Attention  
-- Chapter 6: Practical NLP Tasks
+- Chapter 1: Review of Neural Networks  
+- Chapter 2: Natural Language and Distributed Representations  
+- Chapter 3: Word2Vec Implementation  
+- Chapter 4: Improving Word2Vec (negative sampling, subsampling)  
+- Chapter 5: Recurrent Neural Networks (RNNs)  
+- Chapter 6: Gated RNNs (LSTM / GRU)  
+- Chapter 7: Sentence Generation with RNNs  
+- Chapter 8: Attention Mechanisms  
 
-### Book 3: Reinforcement Learning
-- Chapter 1: Introduction to RL and Bandit Problems  
-- Chapter 2: Dynamic Programming (Policy Iteration, Value Iteration)  
-- Chapter 3: Monte Carlo Methods  
-- Chapter 4: Temporal Difference Learning (SARSA, Q-learning)  
-- Chapter 5: Deep Reinforcement Learning (DQN and extensions)  
-- Chapter 6: Applications and Advanced Topics  
+### Book 3: DeZero and Advanced Deep Learning
+- Chapter 1: Automatic Differentiation
+- Chapter 2: Writing Clear & Pythonic Code
+- Chapter 3: Higher-Order Differentiation
+- Chapter 4: Building Neural Networks from Scratch
+- Chapter 5: DeZero Challenges and Practical Features
+
 
 *(Chapters may be updated as I progress through the book.)*
 
