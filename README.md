@@ -20,10 +20,10 @@ The goal is to **implement deep learning concepts from first principles** using 
 
 - **Deep Learning from Scratch (3)**  
   Reinforcement Learning (RL) basics and implementations.  
-  Code in: `Deep Learning from Scratch (3)/Ch01`, `Ch02`, ...
+  Code in: `Deep Learning from Scratch (3)/steps`, `dezero`, ...
 
 - **Deep Learning from Scratch (4)** *(planned)*  
-  Focus: Generative Models (GANs, VAEs) and advanced applications.
+  Focus: ...
 
 ---
 
@@ -67,7 +67,7 @@ The goal is to **implement deep learning concepts from first principles** using 
   - Forward and backward propagation from scratch  
   - Gradient descent, backpropagation, and CNN basics  
 
-- **From Book 2** *(in progress)*:  
+- **From Book 2**:  
   - Building word embeddings and word2vec  
   - Implementing recurrent neural networks for sequence data  
   - Understanding the foundations of NLP models
@@ -97,5 +97,5 @@ cd "Deep Learning from Scratch (2)/Ch01"
 python word2vec_basic.py
 
 # Example (Book 3, Chapter 1)
-cd "Deep Learning from Scratch (3)/Ch01"
+cd "Deep Learning from Scratch (3)/steps"
 python step01.py
